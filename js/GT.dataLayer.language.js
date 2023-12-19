@@ -1,0 +1,1 @@
+(function(a,c){if(!c||(a.dtmParameter!="A"&&a.dtmParameter!="B")){return;}c.notify("Running: datalayer.v2.lang-en.js",2);var b=a._DigitalData.prototype.fn;b.language=function(){return"TR";};})(window,window._satellite);

